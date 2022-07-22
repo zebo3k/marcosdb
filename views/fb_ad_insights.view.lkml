@@ -150,6 +150,12 @@ view: fb_ad_insights {
     type: count
     drill_fields: [adset_name, campaign_name, account_name, ad_name]
   }
+
+  measure: total_spend {
+    type: sum
+    sql: ${spend} ;;
+    value_format_name: usd
+  }
 }
 
 view: fb_ad_insights__website_ctr {
