@@ -1,6 +1,6 @@
 - dashboard: orders
   title: orders
-  layout: grid
+  layout: static
   preferred_viewer: dashboards-next
   description: ''
   preferred_slug: Y32WznIjQTHsFcoPrpAaie
